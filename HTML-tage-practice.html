@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>HTML Tags Cheat Sheet</title>
+</head>
+<body>
+    <h1 id="top-of-page">Table of contents:</h1>
+    <p><strong>
+        <ul>
+            <li><a href="#the-head">Headings</a></li>
+            <li><a href="#the-list">List</a></li>
+            <li><a href="#the-paragraph">Paragraphs</a></li>
+            <li><a href="#Polya's-problem">Polya's Problem Solving Framework</a></li>
+            <li><a href="#org-cont">Organizing Content</a></li>
+        </ul>
+    </p></strong>
+    <h1>HTML Tags Cheat Sheet</h1>
+
+    <h2 id="the-head">Headings</h2>
+    <p>
+        Headings from `h1` to `h6` identify blocks and sections. Every page must have one `h1`.
+    </p>
+    <h2 id="the-paragraph">Paragraphs</h2>
+    <p>
+        Paratgraphs of tect go in 'p' tags
+    </p>
+
+    <h2 id="the-list">Lists</h2>
+    <h3>Unordered Lists</h3>
+    <p>
+        Unordered lists are marked with bullet points and go in 'ul' tags. Each list item goes in an 'il' tag.
+    </p>
+    <h4>Types of lists:</h4>
+    <ul>
+        <li>Unordered lists ('ul')</li>
+        <li>Ordered lists ('ol')</li>
+    </ul>
+
+    <h3>Ordered Lists</h3>
+    <p>
+        Ordered lists are numbered and go to 'oi' tags. each list itemn goes in an 'li' tag.
+    </p>
+    <h4 id="Polya's-problem">Polya's Problem Solving Framework</h4>
+    <ul>
+        <li>Understand the problem</li>
+        <li>Come up with a plan</li>
+        <li>Carry out the plan</li>
+        <li>Go back and improve your solution</li>
+    </ul>
+
+    <h2>Anchors (i.e. links)</h2>
+    <p>
+        Anchor tags create links to other pages. the URL goes in the 'href' attribute.
+        <a href="https://duckduckgo.com">Go to Duckduckgo to search for more information.</a>
+    </p>
+    <p>
+        Setting 'target="_blank" will open the link in a new window. See
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">
+            MDM
+        </a>
+        for more details.
+    </p>
+    <p>Anchor tags can slso create links to a new location on the same page. Instead of putting a URL goes in the 'href' attribute. Just use the 'id' of the element you want to navigate to. this allows you to
+        <a href="#top-of-page">
+            jump to that part of the page.
+        </a>
+    </p>
+    <h2>Text Emphasis</h2>
+        <h3>Italic</h3>
+            <em>
+                the 'em element adds extra emphasis to the rtext within the opening and closing tags. This shows up as italic text in most browsers.
+            </em>
+        <h3>Bold</h3>
+            <strong>
+                You can also use the 'strongh' element to emphasize text. This shows up as bold tect in most browsers.
+            </strong>
+
+    <h2 id="org-cont">Organizing Content with `div` and `span`</h2>
+        <h3>`div`</h3>
+            <p>
+                The `div` element is a block element, so each `div` will show up on a new line.
+            </p>
+            <div>1st div</div>
+            <div>2nd div</div>
+            <div>3rd div</div>
+        <h3>`span`</h3>
+            <p>
+                The `span` element is an inline element, so there will be no line break between each `span`.
+            </p>
+            <span>1st span</span>
+            <span>2nd span</span>
+            <span>3rd span</span>
+
+    <h2>Breaking tect using the 'br' tag</h2>
+    <p>I know about 'div'<br>I know about 'span"<br>And now i know how to break.<br>
+    </p>
+
+</body>
+</html>
